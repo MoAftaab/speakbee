@@ -65,7 +65,7 @@ export default function EnrollmentList() {
                     <td>{it.name}</td>
                     <td style={{ textAlign: 'right' }}>
                       <button onClick={() => remove(it.speaker_id)} className="btn btn-danger btn-sm" title="Delete">
-                        <Image src="/trash.svg" alt="" width={14} height={14} />
+              
                         Delete
                       </button>
                     </td>
